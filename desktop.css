@@ -1,4 +1,4 @@
-@media(width>1440px) {
+@media(min-width:1440px) {
     body {
         overflow: hidden;
 
@@ -43,9 +43,10 @@
         display: inline;
     }
 
-    h3 {
-        width: 192px;
-    }
+   h3{
+    width: auto;
+    height: auto;
+   }
 
     .box6 {
         width: 544px;
@@ -169,6 +170,9 @@
 
     button:active .btnimg {
         display: none;
+    }
+    main,section{
+        width: auto;
     }
 
 }
